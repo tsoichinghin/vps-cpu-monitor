@@ -74,10 +74,6 @@ https://github.com/tsoichinghin/vps-cpu-monitor/raw/main/vps_list.csv
 
 After all the setup is finished, you can open your terminal and run monitor.py on your local computer.
 
-When the GUI is loaded, open Settings to upload your CSV file and start using this software.
-
-Also, fill in your sender email address and recipient email address if you want to use the notification email feature.
-
 If you don't want to manually type the command every time, you can make a Unix executable file with pyinstaller.
 
 The command for installing pyinstaller is:
@@ -91,3 +87,9 @@ pyinstaller --onefile monitor.py
 ```
 
 You will find a unix executable file name monitor in dist folder.
+
+# Happy monitoring
+When the GUI is loaded, open Settings to upload your CSV file and start using this software.
+
+Also, fill in your sender email address and recipient email address if you want to use the notification email feature.
+
