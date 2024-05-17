@@ -80,7 +80,8 @@ python monitor.py
 python3 monitor.py
 ```
 
-If you don't want to manually type the command every time, you can make a Unix executable file with pyinstaller.
+
+**If you don't want to manually type the command every time, you can make a Unix executable file with pyinstaller.**
 
 The command for installing pyinstaller is:
 ```
