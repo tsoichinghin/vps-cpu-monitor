@@ -22,11 +22,9 @@ If the VPS stays on the Danger stage for more than one minute, it will be record
 ### Settings
 All software settings are behind this section.
 
-***Linking Devices Setting***
-Before you use the software, you need to upload your CSV file to link your VPS devices.
+***Linking Devices Setting*** **-** Before you use the software, you need to upload your CSV file to link your VPS devices.
 
-***Notification Email Setting***
-If you want to use the notification feature, you need to fill in your sender email address and recipient email address to set the notification email setting.
+***Notification Email Setting*** **-** If you want to use the notification feature, you need to fill in your sender email address and recipient email address to set the notification email setting.
 
 # Installation
 Before using this software, you need to set up different things on the VPS and local computer.
