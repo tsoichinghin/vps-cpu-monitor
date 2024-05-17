@@ -51,7 +51,7 @@ apt-get install python3 -y && apt-get install python3-pip -y && pip install psut
 ```
 **If you open firewall on your VPS, please remember to allow port** ***3001.***
 
-### Local compurter
+### Local computer
 We also need Python and the following packages.
 ```
 pip install requests
