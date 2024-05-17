@@ -17,13 +17,16 @@ The label will show up in three different colors at three different CPU usage st
 ### Logs
 If the VPS stays on the Danger stage for more than one minute, it will be recorded in the logs.
 
-**Also, it will send a notification email to your mailbox if you set the notification email in Settings.**
+**Also, it will send a notification email to your mailbox if you set the Notification Email Setting in Settings.**
 
 ### Settings
 All software settings behind this section.
 
-***Linking Devices Setting
-you need to upload your CSV file to linking your VPS device before you using the software. Also, you need to fill in your sender email address and recipient email address to set the notification email setting.
+***Linking Devices Setting***
+Before you use the software, you need to upload your CSV file to linking your VPS devices.
+
+***Notification Email Setting***
+If you want to use the notification feature, you need to fill in your sender email address and recipient email address to set the notification email setting.
 
 # Installation
 Before using this software, you need to set up different things on the VPS and local computer.
