@@ -19,10 +19,11 @@ If the VPS stays on the Danger stage for more than one minute, it will be record
 
 **Also, it will send a notification email to your mailbox if you set the notification email in Settings.**
 
-*The email feature uses the API of Guerrilla Mail to create a new temporary email to send an email to your mailbox. I didn't test the feature before, so I didn't know if it worked or not.*
-
 ### Settings
+All software settings behind this section.
 
+***Linking Devices Setting
+you need to upload your CSV file to linking your VPS device before you using the software. Also, you need to fill in your sender email address and recipient email address to set the notification email setting.
 
 # Installation
 Before using this software, you need to set up different things on the VPS and local computer.
