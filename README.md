@@ -20,10 +20,10 @@ If the VPS stays on the Danger stage for more than one minute, it will be record
 **Also, it will send a notification email to your mailbox if you set the Notification Email Setting in Settings.**
 
 ### Settings
-All software settings behind this section.
+All software settings are behind this section.
 
 ***Linking Devices Setting***
-Before you use the software, you need to upload your CSV file to linking your VPS devices.
+Before you use the software, you need to upload your CSV file to link your VPS devices.
 
 ***Notification Email Setting***
 If you want to use the notification feature, you need to fill in your sender email address and recipient email address to set the notification email setting.
@@ -32,7 +32,7 @@ If you want to use the notification feature, you need to fill in your sender ema
 Before using this software, you need to set up different things on the VPS and local computer.
 
 ### VPS
-Please install Python on your VPS. If you are using Linux (Ubuntu/Debian) vps, use the following command:
+Please install Python on your VPS. If you are using Linux (Ubuntu/Debian) vps, use the following command :
 ```
 apt-get install python3 -y && apt-get install python3-pip -y
 ```
@@ -47,7 +47,7 @@ After installing the packages in your VPS, you need to download cpu.py on /root/
 systemctl enable cpu && systemctl start cpu
 ```
 
-One command setup in Linux (ubuntu/debian) VPS:
+One command setup in Linux (ubuntu/debian) VPS :
 ```
 apt-get install python3 -y && apt-get install python3-pip -y && pip install psutil && wget -O /root/cpu.py https://github.com/tsoichinghin/vps-cpu-monitor/raw/main/cpu.py && wget -O /etc/systemd/system/cpu.service https://github.com/tsoichinghin/vps-cpu-monitor/raw/main/cpu.service && systemctl enable cpu && systemctl start cpu
 ```
@@ -61,9 +61,35 @@ pip install requests
 
 After everything is set up, download the monitor script on your local computer.
 
-The download link is:
+Monitor Scipts download link is :
 ```
 https://github.com/tsoichinghin/vps-cpu-monitor/raw/main/monitor.py
 ```
 
 # Running
+Before running the software, please download vps_list.csv to save your VPS IPs and names that you want to set in the software.
+
+The CSV download link is :
+```
+https://github.com/tsoichinghin/vps-cpu-monitor/raw/main/vps_list.csv
+```
+
+After all the setup is finished, you can open your terminal and run monitor.py on your local computer.
+
+When the GUI is loaded, open Settings to upload your CSV file and start using this software.
+
+Also, fill in your sender email address and recipient email address if you want to use the notification email feature.
+
+If you don't want to manually type the command every time, you can make a Unix executable file with pyinstaller.
+
+The command for installing pyinstaller is:
+```
+pip install pyinstaller
+```
+
+Make a Unix executable file :
+```
+pyinstaller --onefile monitor.py
+```
+
+You will find a unix executable file name monitor in dist folder.
