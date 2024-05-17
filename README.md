@@ -72,7 +72,13 @@ The CSV download link is :
 https://github.com/tsoichinghin/vps-cpu-monitor/raw/main/vps_list.csv
 ```
 
-### *After all the setup is finished, you can open your terminal and run monitor.py on your local computer.*
+### **After all the setup is finished, you can open your terminal and run Monitor script on your local computer.**
+```
+python monitor.py
+```
+```
+python3 monitor.py
+```
 
 If you don't want to manually type the command every time, you can make a Unix executable file with pyinstaller.
 
