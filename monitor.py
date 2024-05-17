@@ -67,7 +67,7 @@ class CPUUsageMonitorApp:
         self.settings_tab = ttk.Frame(self.tab_control)
         self.tab_control.add(self.settings_tab, text='Settings')
 
-        self.email_setting_label = ttk.Label(self.settings_tab, text="Linking Devices Settings", font=("Helvetica", 31, "bold"))
+        self.email_setting_label = ttk.Label(self.settings_tab, text="Linking Devices Setting", font=("Helvetica", 31, "bold"))
         self.email_setting_label.pack(pady=20)
 
         self.import_button = ttk.Button(self.settings_tab, text="Import CSV", command=self.import_csv)
