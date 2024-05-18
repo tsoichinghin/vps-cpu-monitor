@@ -20,7 +20,7 @@ If the VPS stays on the Danger stage for more than one minute, it will be record
 **Also, it will send a notification email to your mailbox if you set the Notification Email Setting in Settings.**
 
 ### Settings
-All software settings are behind this section.
+All application settings are behind this section.
 
 ***Linking Devices Setting*** **-** Before you use the software, you need to upload your CSV file to link your VPS devices.
 
