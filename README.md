@@ -93,7 +93,7 @@ python3 monitor.py
 
 ### ***If you don't want to manually type the command every time, you may make a Unix executable file with pyinstaller.***
 
-The command for installing pyinstaller is:
+The command for installing pyinstaller :
 ```
 pip install pyinstaller
 ```
