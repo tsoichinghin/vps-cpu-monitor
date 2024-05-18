@@ -98,7 +98,7 @@ The command for installing pyinstaller :
 pip install pyinstaller
 ```
 
-Make a Unix executable file :
+Make a Unix executable file on Mac and Linux, or make an exe file on Windows :
 ```
 pyinstaller --onefile monitor.py
 ```
