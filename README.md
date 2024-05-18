@@ -72,18 +72,14 @@ pip install requests
 ```
 
 After everything is set up, download the monitor script on your local computer.
-
-Monitor Scipts download link is :
 ```
-https://github.com/tsoichinghin/vps-cpu-monitor/raw/main/monitor.py
+wget https://github.com/tsoichinghin/vps-cpu-monitor/raw/main/monitor.py
 ```
 
 # Running
 Before running the software, please download vps_list.csv to save your VPS IPs and names that you want to set in the software.
-
-The CSV download link is :
 ```
-https://github.com/tsoichinghin/vps-cpu-monitor/raw/main/vps_list.csv
+wget https://github.com/tsoichinghin/vps-cpu-monitor/raw/main/vps_list.csv
 ```
 
 ### ***After all the setup is finished, you can open your terminal and run Monitor script on your local computer.***
