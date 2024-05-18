@@ -103,7 +103,7 @@ Make a Unix executable file on Mac and Linux, or make an exe file on Windows :
 pyinstaller --onefile monitor.py
 ```
 
-You will find a unix executable file name monitor in dist folder.
+You will find a unix executable file or exe file name monitor in dist folder.
 
 # Happy monitoring
 When the GUI is loaded, open Settings to upload your CSV file and start using this application.
