@@ -45,7 +45,15 @@ If you got some error in installation in Python, the factor of error may be that
 apt-get update && apt-get upgrade -y
 ```
 
-After installing the packages in your VPS, you need to download cpu.py on /root/cpu.py and cpu.service on /etc/systemd/system/cpu.service. And run the following command to start the service.
+After installing the packages in your VPS, you need to download 
+
+**cpu.py** on */root/cpu.py* 
+
+and 
+
+**cpu.service** on */etc/systemd/system/cpu.service*
+
+and run the following command to start the service.
 
 ```
 systemctl enable cpu && systemctl start cpu
