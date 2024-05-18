@@ -34,9 +34,15 @@ Please install Python on your VPS. If you are using Linux (Ubuntu/Debian) vps, u
 ```
 apt-get install python3 -y && apt-get install python3-pip -y
 ```
+
 And please install the following package.
 ```
 pip install psutil
+```
+
+If you got some error in installation in Python, the factor of error may be that you didn't update and upgrade the apt.
+```
+apt-get update && apt-get upgrade -y
 ```
 
 After installing the packages in your VPS, you need to download cpu.py on /root/cpu.py and cpu.service on /etc/systemd/system/cpu.service. And run the following command to start the service.
