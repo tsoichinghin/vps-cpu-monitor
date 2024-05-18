@@ -53,7 +53,7 @@ and
 
 **cpu.service** on */etc/systemd/system/cpu.service*
 
-and run the following command to start the service.
+and finally run the following command to start the service.
 
 ```
 systemctl enable cpu && systemctl start cpu
