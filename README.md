@@ -1,8 +1,8 @@
 # vps-cpu-monitor
-This is VPS CPU monitor software.
+This is a VPS CPU monitor application.
 
 # Features
-On the monitor software, it includes three sections.
+On the monitor application, it includes three sections.
 ### CPU Usage
 It shows the CPU usage of your VPS, and it includes information about the name you set for your VPS and the CPU usage of the VPS in real time.
 
@@ -77,7 +77,7 @@ wget https://github.com/tsoichinghin/vps-cpu-monitor/raw/main/monitor.py
 ```
 
 # Running
-Before running the software, please download vps_list.csv to save your VPS IPs and names that you want to set in the software.
+Before running the application, please download vps_list.csv to save your VPS IPs and names that you want to set in the application.
 ```
 wget https://github.com/tsoichinghin/vps-cpu-monitor/raw/main/vps_list.csv
 ```
@@ -106,7 +106,7 @@ pyinstaller --onefile monitor.py
 You will find a unix executable file name monitor in dist folder.
 
 # Happy monitoring
-When the GUI is loaded, open Settings to upload your CSV file and start using this software.
+When the GUI is loaded, open Settings to upload your CSV file and start using this application.
 
 Also, fill in your sender email address and recipient email address if you want to use the notification email feature.
 
