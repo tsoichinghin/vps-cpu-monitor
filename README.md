@@ -27,7 +27,7 @@ All software settings are behind this section.
 ***Notification Email Setting*** **-** If you want to use the notification feature, you need to fill in your sender email address and recipient email address to set the notification email setting. **But the sender email is only supported in Outlook emails.**
 
 # Installation
-Before using this software, you need to set up different things on the VPS and local computer.
+Before using this application, you need to set up different things on the VPS and local computer.
 
 ### VPS
 Please install Python on your VPS. If you are using Linux (Ubuntu/Debian) vps, use the following command :
