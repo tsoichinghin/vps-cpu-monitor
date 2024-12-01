@@ -19,9 +19,9 @@ class RequestHandler(BaseHTTPRequestHandler):
             self.wfile.write(b'Not Found')
 
 def start_server():
-    server_address = ('', 3001)
+    server_address = ('', 3003)
     httpd = HTTPServer(server_address, RequestHandler)
-    print('Starting server on port 3001...')
+    print('Starting server on port 3003...')
     httpd.serve_forever()
 
 if __name__ == '__main__':
